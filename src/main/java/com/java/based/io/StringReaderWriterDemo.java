@@ -8,7 +8,7 @@ import java.io.StringWriter;
  * @author honglixiang@tiduyun.com
  * @date 2022/7/9
  */
-public class StringReaderWriter {
+public class StringReaderWriterDemo {
 
     public static void main(String[] args) throws IOException{
         String str = "我爱你阿斯顿发生ddfafdsf /n";

@@ -9,7 +9,7 @@ import java.nio.CharBuffer;
  * @author honglixiang@tiduyun.com
  * @date 2022/7/9
  */
-public class FileReaderWriter {
+public class FileReaderWriterDemo {
 
     public static void main(String[] args)throws IOException {
         String from = "D:/tmp/a.MD";

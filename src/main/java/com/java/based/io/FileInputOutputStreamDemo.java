@@ -10,7 +10,7 @@ import java.nio.channels.FileChannel;
  * @author honglixiang@tiduyun.com
  * @date 2022/7/9
  */
-public class FileInputOutputStreamTest {
+public class FileInputOutputStreamDemo {
 
     public static void main(String[] args) throws IOException {
         String from = "D:/cmp-maintenance-server_3.1.0.tar.gz";

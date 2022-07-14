@@ -11,7 +11,7 @@ import java.nio.CharBuffer;
  * @author honglixiang@tiduyun.com
  * @date 2022/7/10
  */
-public class BufferedReaderWriter {
+public class BufferedReaderWriterDemo {
 
     public static void main(String[] args) throws IOException{
         String from = "D:/tmp/a.MD";
