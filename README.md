@@ -28,3 +28,40 @@
 - 复制文件，有几种方式
 - 将文本写入文件内容,有几种方式
 - 往文件里面追加内容，有几种方式
+
+
+## 锁
+- Synchronized
+- Lock
+  - ReentrantLock
+- ReadWriteLock
+  - ReentrantReadWriteLock
+- Condition
+- CountDownLatch
+- CyclicBarrier  
+- AbstractQueuedSynchronizer
+- Semaphore
+  
+- Atomic类
+- volatile关键字  
+- CAS机制(Compare and swap)
+
+### 练习题
+
+
+## 线程
+- Thread
+- Runnable
+- Callable
+- FutureTask  
+- ThreadGroup
+- ThreadLocal
+- ThreadPool
+- Executor
+- Executors
+
+### 练习题
+
+
+## socket
+

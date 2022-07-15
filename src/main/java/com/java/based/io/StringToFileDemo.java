@@ -14,6 +14,8 @@ import java.nio.charset.StandardCharsets;
  */
 public class StringToFileDemo {
 
+    private volatile String name;
+
     public static void main(String[] args) throws IOException{
         String file = "strTo.text";
         String s ="132 456789";
