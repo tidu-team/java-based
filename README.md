@@ -24,11 +24,14 @@
 - File
 - RandomAccessFile
 
-### 练习题：
-- 复制文件，有几种方式
-- 将文本写入文件内容,有几种方式
-- 往文件里面追加内容，有几种方式
+- AIO、BIO、NIO、EPOLL
 
+### 练习题：
+- 复制文件，有几种方式? 4+
+- 将文本写入文件内容,有几种方式? StringToFileDemo
+- 往文件里面追加内容，有几种方式? FileAppendDemo
+- 查询某个路径下，有多少个java文件?
+- 将一个文件分割为两个，然后合并两个文件的内容? RandomAccessFile+SequenceInputStream
 
 ## 锁
 - Synchronized
@@ -36,14 +39,16 @@
   - ReentrantLock
 - ReadWriteLock
   - ReentrantReadWriteLock
+- Semaphore
 - Condition
 - CountDownLatch
 - CyclicBarrier  
-- AbstractQueuedSynchronizer
-- Semaphore
-  
 - Atomic类
 - volatile关键字  
+
+- 位运算 （加、减、乘、除、取余）
+- AbstractQueuedSynchronizer
+  - Sync/FairSync/NonfairSync
 - CAS机制(Compare and swap)
 
 ### 练习题
