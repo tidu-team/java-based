@@ -28,6 +28,7 @@ public class MyThreadLocal {
         private ThreadLocal<List<Integer>> threadLocal = new ThreadLocal();
 
         private List<Integer> variableList = new ArrayList<>();
+
         @Override
         public void run() {
             //一旦创建了一个ThreadLocal变量，你可以通过如下代码设置某个需要保存的值

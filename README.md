@@ -60,13 +60,21 @@
 - Callable
 - FutureTask  
 - ThreadGroup
+  线程组（ThreadGroup）就是由线程组成的管理线程的类，这个类是java.lang.ThreadGroup类 每一个线程都存在相同的线程组下
 - ThreadLocal
+- 阻塞队列
 - ThreadPool
 - Executor
 - Executors
 - ThreadPoolExecutor
 
 ### 练习题
+- wait 和 sleep有什么不同?
+- stop 和 interrupt有什么不同?
+- ThreadLocal作用于什么场景？为什么会造成内存泄露？如何解决?
+- Collection 和 Collections是什么关系?  -> executor 和 executors是什么关系？
+- 如何创建线程池?
+- 线程池配置合理线程数?
 
 
 ## socket

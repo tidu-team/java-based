@@ -19,7 +19,7 @@ public class MyThread implements Runnable{
 
     public static void main(String[] args) {
         Thread thread = new Thread(new MyThread());
-//        Thread.sleep(1);
+//        Thread.sleep(1); //使线程休眠不会释放锁
         thread.start();
 
         thread.suspend();  //挂起线程 --不会分配时间片给这个线程

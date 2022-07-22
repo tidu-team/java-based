@@ -9,7 +9,7 @@ import sun.nio.ch.ThreadPool;
  * @author chenjingyan@tiduyun.com
  * @date 2022/7/18
  */
-public class MyExecutor {
+public class MyThreadExecutor {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         executorService.execute( () -> {
